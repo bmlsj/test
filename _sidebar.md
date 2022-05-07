@@ -2,5 +2,5 @@
 
 
 * [HOME](./)
-* [Contact](./contact/index)
+* [Contact](./contact/index.md)
 
