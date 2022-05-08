@@ -10,8 +10,8 @@ def get_files(commit1, commit2):
 	return files
 
 def get_word_count(str):
-	p = re.compile('\w+')
-	words_list = [s for s in str.split() if p.match(s)]
+	# p = re.compile('\w+')
+	# words_list = [s for s in str.split() if p.match(s)]
 	return len(str.split())
 
 

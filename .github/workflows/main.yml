@@ -26,16 +26,47 @@ jobs:
         with:
          python-version: ${{ matrix.python-version }}
     
-      - name : branch name
-        id : vars
-        run : |
-              GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
-              echo "GIT_BRANCH=$GIT_BRANCH"
+      #- name : branch name
+      #  id : vars
+      #  run : |
+      #        GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
+      #        echo "GIT_BRANCH=$GIT_BRANCH"
             #  echo ::set-output name=ref_name::${GITHUB_ENV}
+       # remote
+      - name: remote upstream
+        run : |
+              git remote add upstream 'upstream 주소'
+              git remote -v
+                      
+      # fetch
+      - name : fetch upstream
+        run : git fetch upstream 
+              
+      # main의 최신 id               
+      - name : main id
+        id : main
+        run : echo ::set-output name=main_id::$(git rev-parse main)
 
-    #  - name: Run diff.py
-    #    run: python diff.py 
+      # upstream/main의 최신 id
+      - name : upstream id
+        id : vars
+        run : echo ::set-output name=upstream_id::$(git rev-parse upstream/main)
+      
+      # id 출력
+      - name : output 
+        run : |
+              echo ${{steps.vars.outputs.upstream_id}}
+              echo ${{steps.main.outputs.main_id}}
 
+      # git diff
+      - name: Run diff.py
+        run: python diff.py ${{steps.main.outputs.main_id}} ${{steps.vars.outputs.upstream_id}} 
+
+      
+      - name : git 
+        run : |
+                git config --global user.email "gaga2353@gmail.com"
+                git config --global user.name "bmlsj"
         
       - name : commit
         run : |
