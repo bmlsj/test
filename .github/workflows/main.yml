@@ -30,11 +30,8 @@ jobs:
         id : vars
         run : |
               GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
-              echo "GIT_BRANCH=$GIT_BRANCH" >> $GITHUB_ENV
+              echo "GIT_BRANCH=$GIT_BRANCH"
             #  echo ::set-output name=ref_name::${GITHUB_ENV}
-
-      - name : check output
-        run : echo ${{GIT_BRANCH}}
 
     #  - name: Run diff.py
     #    run: python diff.py 
