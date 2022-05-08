@@ -28,7 +28,10 @@ jobs:
     
       - name : branch name
         id : vars
-        run : echo ::set-output name=ref_name::${GITHUB_REF#refs/*/}
+        run : |
+              GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
+              echo "GIT_BRANCH=$GIT_BRANCH" >> $GITHUB_ENV
+              echo ::set-output name=ref_name::${GITHUB_ENV}
 
       - name : check output
         run : echo ${{steps.vars.output.ref_name}}
