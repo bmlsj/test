@@ -33,8 +33,9 @@ jobs:
       - name : check output
         run : echo ${{steps.vars.output.ref_name}}
 
-      - name: Run diff.py
-        run: python diff.py 
+    #  - name: Run diff.py
+    #    run: python diff.py 
+
         
       - name : commit
         run : |
