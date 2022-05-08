@@ -62,11 +62,13 @@ def main(b1, b2):
 				result += f'\t{diff["state"]}\n'
 
 			result += f"\tAdded words: {diff['diff'][0]}, Deleted words: {diff['diff'][1]}\n"
+
+
 	with open("contact\index.md", "w") as f:
 		f.write(result)
 
 
 if __name__ == '__main__':
-	# main(sys.argv[1], sys.argv[2])
-	main("main", "test")
+	main(sys.argv[1], sys.argv[2])
+	# main("main", "test")
 
