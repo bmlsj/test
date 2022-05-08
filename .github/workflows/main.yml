@@ -25,9 +25,16 @@ jobs:
         uses: actions/setup-python@v2
         with:
          python-version: ${{ matrix.python-version }}
-              
+    
+      - name : branch name
+        id : vars
+        run : echo ::set-output name=ref_name::${GITHUB_REF#refs/*/}
+
+      - name : check output
+        run : echo ${{steps.vars.output.ref_name}}
+
       - name: Run diff.py
-        run: python diff.py origin test
+        run: python diff.py 
         
       - name : commit
         run : |
