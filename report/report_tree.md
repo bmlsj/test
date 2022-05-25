@@ -1,3 +1,186 @@
+  0 .github
+
+      1 ISSUE_TEMPLATE
+
+          2 translations_checklist.md
+
+             -- {'name': '.github/ISSUE_TEMPLATE/translations_checklist.md', 'state': 'A', 'diff': (149, 0), 'diff_rate': (1, 0)}
+
+      1 PULL_REQUEST_TEMPLATE
+
+          2 translation_checklist.md
+
+             -- {'name': '.github/PULL_REQUEST_TEMPLATE/translation_checklist.md', 'state': 'A', 'diff': (86, 0), 'diff_rate': (1, 0)}
+
+          2 translation_checklist.pt.md
+
+             -- {'name': '.github/PULL_REQUEST_TEMPLATE/translation_checklist.pt.md', 'state': 'A', 'diff': (90, 0), 'diff_rate': (1, 0)}
+
+      1 workflows
+
+          2 lock.yml
+
+             -- {'name': '.github/workflows/lock.yml', 'state': 'A', 'diff': (17, 0), 'diff_rate': (1, 0)}
+
+          2 stale.yml
+
+             -- {'name': '.github/workflows/stale.yml', 'state': 'A', 'diff': (106, 0), 'diff_rate': (1, 0)}
+
+  0 .gitignore
+
+     -- {'name': '.gitignore', 'state': 'M', 'diff': (503, 0), 'diff_rate': (503.0, 0.0)}
+
+  0 1-getting-started-lessons
+
+      1 1-intro-to-programming-languages
+
+          2 README.md
+
+             -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/README.md', 'state': 'M', 'diff': (132, 120), 'diff_rate': (0.08599348534201955, 0.0781758957654723)}
+
+          2 assignment.md
+
+             -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/assignment.md', 'state': 'M', 'diff': (1, 1), 'diff_rate': (0.009345794392523364, 0.009345794392523364)}
+
+          2 translations
+
+              3 README.el.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.el.md', 'state': 'A', 'diff': (1442, 0), 'diff_rate': (1, 0)}
+
+              3 README.es.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.es.md', 'state': 'M', 'diff': (224, 216), 'diff_rate': (0.13477737665463296, 0.1299638989169675)}
+
+              3 README.fil.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.fil.md', 'state': 'A', 'diff': (1739, 0), 'diff_rate': (1, 0)}
+
+              3 README.fr.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.fr.md', 'state': 'A', 'diff': (1549, 0), 'diff_rate': (1, 0)}
+
+              3 README.hi.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.hi.md', 'state': 'A', 'diff': (1688, 0), 'diff_rate': (1, 0)}
+
+              3 README.id.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.id.md', 'state': 'M', 'diff': (18, 7), 'diff_rate': (0.0127750177430802, 0.0049680624556423)}
+
+              3 README.it.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.it.md', 'state': 'M', 'diff': (21, 7), 'diff_rate': (0.012851897184822521, 0.004283965728274173)}
+
+              3 README.ja.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.ja.md', 'state': 'M', 'diff': (14, 5), 'diff_rate': (0.04375, 0.015625)}
+
+              3 README.ko.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.ko.md', 'state': 'M', 'diff': (16, 7), 'diff_rate': (0.0141718334809566, 0.006200177147918512)}
+
+              3 README.ms.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.ms.md', 'state': 'A', 'diff': (1279, 0), 'diff_rate': (1, 0)}
+
+              3 README.nl.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.nl.md', 'state': 'M', 'diff': (44, 31), 'diff_rate': (0.028115015974440896, 0.019808306709265176)}
+
+              3 README.pt.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.pt.md', 'state': 'A', 'diff': (1500, 0), 'diff_rate': (1, 0)}
+
+              3 README.ru.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.ru.md', 'state': 'A', 'diff': (1231, 0), 'diff_rate': (1, 0)}
+
+              3 README.ta.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.ta.md', 'state': 'A', 'diff': (1111, 0), 'diff_rate': (1, 0)}
+
+              3 README.zh-cn.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.zh-cn.md', 'state': 'A', 'diff': (201, 0), 'diff_rate': (1, 0)}
+
+              3 README.zh-tw.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/README.zh-tw.md', 'state': 'A', 'diff': (192, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.el.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.el.md', 'state': 'A', 'diff': (106, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.es.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.es.md', 'state': 'A', 'diff': (100, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.fr.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.fr.md', 'state': 'A', 'diff': (91, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.hi.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.hi.md', 'state': 'M', 'diff': (1, 1), 'diff_rate': (0.007575757575757576, 0.007575757575757576)}
+
+              3 assignment.id.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.id.md', 'state': 'M', 'diff': (1, 1), 'diff_rate': (0.010101010101010102, 0.010101010101010102)}
+
+              3 assignment.it.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.it.md', 'state': 'M', 'diff': (1, 1), 'diff_rate': (0.008695652173913044, 0.008695652173913044)}
+
+              3 assignment.ja.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.ja.md', 'state': 'M', 'diff': (1, 1), 'diff_rate': (0.034482758620689655, 0.034482758620689655)}
+
+              3 assignment.ko.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.ko.md', 'state': 'A', 'diff': (75, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.ms.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.ms.md', 'state': 'A', 'diff': (77, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.nl.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.nl.md', 'state': 'A', 'diff': (94, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.pt.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.pt.md', 'state': 'A', 'diff': (107, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.ru.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.ru.md', 'state': 'A', 'diff': (95, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.sw.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.sw.md', 'state': 'A', 'diff': (87, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.ta.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.ta.md', 'state': 'A', 'diff': (77, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.uk.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.uk.md', 'state': 'A', 'diff': (76, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.zh-cn.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.zh-cn.md', 'state': 'A', 'diff': (18, 0), 'diff_rate': (1, 0)}
+
+              3 assignment.zh-tw.md
+
+                 -- {'name': '1-getting-started-lessons/1-intro-to-programming-languages/translations/assignment.zh-tw.md', 'state': 'A', 'diff': (14, 0), 'diff_rate': (1, 0)}
+
+      1 2-github-basics
+
+          2 README.md
+
+             -- {'name': '1-getting-started-lessons/2-github-basics/README.md', 'state': 'M', 'diff': (21, 14), 'diff_rate': (0.008363201911589008, 0.005575467941059339)}
 
           2 translations
 
