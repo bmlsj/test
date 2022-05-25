@@ -2,5 +2,5 @@
 
 
 * [HOME](./)
-* [Contact](./report/report_tree.md)
+* [Report](./report/report_tree.md)
 
