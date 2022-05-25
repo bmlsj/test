@@ -1,3 +1,21 @@
+  0 .github
+
+      1 ISSUE_TEMPLATE
+
+          2 translations_checklist.md
+
+             -- {'name': '.github/ISSUE_TEMPLATE/translations_checklist.md', 'state': 'A', 'diff': (149, 0), 'diff_rate': (1, 0)}
+
+      1 PULL_REQUEST_TEMPLATE
+
+          2 translation_checklist.md
+
+             -- {'name': '.github/PULL_REQUEST_TEMPLATE/translation_checklist.md', 'state': 'A', 'diff': (86, 0), 'diff_rate': (1, 0)}
+
+          2 translation_checklist.pt.md
+
+             -- {'name': '.github/PULL_REQUEST_TEMPLATE/translation_checklist.pt.md', 'state': 'A', 'diff': (90, 0), 'diff_rate': (1, 0)}
+
       1 workflows
 
           2 lock.yml
