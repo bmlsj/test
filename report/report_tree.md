@@ -1,8 +1,3 @@
-      1 2-github-basics
-
-          2 README.md
-
-             -- {'name': '1-getting-started-lessons/2-github-basics/README.md', 'state': 'M', 'diff': (21, 14), 'diff_rate': (0.008363201911589008, 0.005575467941059339)}
 
           2 translations
 
