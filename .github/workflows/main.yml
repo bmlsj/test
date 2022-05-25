@@ -53,9 +53,6 @@ jobs:
       - name: run python script
         run : python diff_i18n.py main upstream/main
         working-directory: ${{ env.working-directory }}
-      
-      - name: make report dir
-        run : mkdir report
         
       - name: copy result
         run : mkdir report && cp report_tree.md ../report
